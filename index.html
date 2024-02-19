@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos adicionales */
+    .max-width-150 {
+      max-width: 150px;
+    }
+
+    /* Estilo para imagen de "Acerca de mí" */
+    #about img {
+      border-radius: 60%; /* Hace que la imagen sea un círculo */
+      max-width: 300px; /* Reduzca el tamaño de la imagen */
+    }
+
+    /* Estilo para fondo estrellado */
+    section {
+      background-color: #000; /* Fondo negro */
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Imagen de fondo estrellado */
+      color: white; /* Texto en blanco para contrastar */
+      padding: 50px 0; /* Añade espacio interno */
+    }
+
+    /* Estilo para imágenes de habilidades */
+    #skills img {
+      max-width: 150px; /* Establece el mismo ancho máximo para todas las imágenes de habilidades */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Resumen de habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Acerca de mí -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <!-- Columna izquierda -->
+        <div class="col-md-6 center-vertical">
+          <div>
+            <h2>Carmen Rosa Quispe Reynaga</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero, quis sollicitudin purus libero eget magna.</p>
+          </div>
+        </div>
+        <!-- Columna derecha -->
+        <div class="col-md-6 text-center">
+          <img src="carmen.jpg" alt="Carmen Rosa Quispe Reynaga" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Resumen de habilidades -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="text-center mb-4">Habilidades</h2>
+      <!-- Primera fila -->
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="css.png" alt="Habilidad 1" class="img-fluid max-width-150">
+        </div>
+        <div class="col-md-6 center-vertical">
+          <div>
+            <h4>CSS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Segunda fila -->
+      <div class="row mt-4">
+        <div class="col-md-6 text-center">
+          <img src="html.png" alt="Habilidad 2" class="img-fluid max-width-150">
+        </div>
+        <div class="col-md-6 center-vertical">
+          <div>
+            <h4>HTML</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Tercera fila -->
+      <div class="row mt-4">
+        <div class="col-md-6 text-center">
+          <img src="java.png" alt="Habilidad 3" class="img-fluid max-width-150">
+        </div>
+        <div class="col-md-6 center-vertical">
+          <div>
+            <h4>JavaScript</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Portafolio -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="text-center mb-4">Portafolio</h2>
+      <div class="row">
+        <!-- Primer proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="portafolio1.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text">Descripción del proyecto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="portafolio2.jpg" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text">Descripción del proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tercer proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="portafolio3.jpg" class="card-img-top" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3</h5>
+              <p class="card-text">Descripción del proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Ver</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="services">
+    <div class="container">
+      <h2 class="text-center mb-4">Servicios</h2>
+      <div class="row">
+        <!-- Primer servicio -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="servicio1.jpg" class="card-img-top" alt="Servicio 1">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 1</h5>
+              <p class="card-text">Descripción del servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo servicio -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="servicio2.jpg" class="card-img-top" alt="Servicio 2">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 2</h5>
+              <p class="card-text">Descripción del servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tercer servicio -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="servicio3.jpg" class="card-img-top" alt="Servicio 3">
+            <div class="card-body">
+              <h5 class="card-title">Servicio 3</h5>
+              <p class="card-text">Descripción del servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Ver</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="mb-4">Contacto</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>Derechos de autor &copy; 2024 Franz Beltran. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
