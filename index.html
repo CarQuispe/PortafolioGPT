@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     /* Estilos adicionales */
@@ -70,7 +71,7 @@
         <div class="col-md-6 center-vertical">
           <div>
             <h2>Carmen Rosa Quispe Reynaga</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero, quis sollicitudin purus libero eget magna.</p>
+            <p>Soy una apasionada por la tecnología y la educación con experiencia en programación, diseño web, danza y música. Me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.</p>
           </div>
         </div>
         <!-- Columna derecha -->
@@ -81,90 +82,148 @@
     </div>
   </section>
 
-  <!-- Sección Resumen de habilidades -->
-  <section id="skills">
-    <div class="container">
-      <h2 class="text-center mb-4">Habilidades</h2>
-      <!-- Primera fila -->
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <img src="css.png" alt="Habilidad 1" class="img-fluid max-width-150">
-        </div>
-        <div class="col-md-6 center-vertical">
-          <div>
-            <h4>CSS</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Segunda fila -->
-      <div class="row mt-4">
-        <div class="col-md-6 text-center">
-          <img src="html.png" alt="Habilidad 2" class="img-fluid max-width-150">
-        </div>
-        <div class="col-md-6 center-vertical">
-          <div>
-            <h4>HTML</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Tercera fila -->
-      <div class="row mt-4">
-        <div class="col-md-6 text-center">
-          <img src="java.png" alt="Habilidad 3" class="img-fluid max-width-150">
-        </div>
-        <div class="col-md-6 center-vertical">
-          <div>
-            <h4>JavaScript</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, leo ut mattis bibendum, nisi ex laoreet libero.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Sección Portafolio -->
-  <section id="portfolio">
-    <div class="container">
-      <h2 class="text-center mb-4">Portafolio</h2>
-      <div class="row">
-        <!-- Primer proyecto -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="portafolio1.jpg" class="card-img-top" alt="Proyecto 1">
-            <div class="card-body">
-              <h5 class="card-title">Proyecto 1</h5>
-              <p class="card-text">Descripción del proyecto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Ver</button>
+<section id="skills">
+  <div class="container">
+    <h2 class="text-center mb-4">Habilidades</h2>
+    <!-- Primera fila -->
+    <div class="row align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="css.png" alt="Habilidad 1" class="img-fluid max-width-150">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <h4>CSS</h4>
+          <p> Creación de diseños web receptivos y adaptables.
+            Capacidad para crear animaciones y transiciones CSS.
+            Experiencia en la optimización del rendimiento web con CSS.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Segunda fila -->
+    <div class="row mt-4 align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="html.png" alt="Habilidad 2" class="img-fluid max-width-150">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <h4>HTML</h4>
+          <p>Excelente manejo de la estructura y semántica del código HTML.
+            Capacidad para crear formularios web complejos y accesibles.
+            Experiencia en la integración de contenido multimedia (imágenes, vídeos, etc.).
+            Conocimiento de las últimas tecnologías web como HTML5 y Web Components.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Tercera fila -->
+    <div class="row mt-4 align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="java.png" alt="Habilidad 3" class="img-fluid max-width-150">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <h4>JavaScript</h4>
+          <p>Experiencia en frameworks populares como  Angular.
+            Conocimiento de bibliotecas JavaScript como jQuery, Underscore.js.
+            Experiencia en la creación de aplicaciones web de una sola página.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- Cuarta fila -->
+    <div class="row mt-4 align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="c.png" alt="Habilidad 4" class="img-fluid max-width-150">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <h4>C++</h4>
+          <p>Sólida comprensión de los conceptos de programación orientada a objetos.
+            Experiencia en el desarrollo de aplicaciones de escritorio y consola.
+            Dominio de la gestión de memoria, punteros y referencias.
+            Capacidad para escribir código C++ eficiente y robusto.
+            Conocimiento de las bibliotecas estándar de C++ y de terceros</p>
+        </div>
+      </div>
+    </div>
+    <!-- Quinta fila -->
+    <div class="row mt-4 align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="python.png" alt="Habilidad 5" class="img-fluid max-width-150">
+      </div>
+      <div class="col-md-9">
+        <div>
+          <h4>Python</h4>
+          <p>Experto en el uso de Python para scripting, análisis de datos y aprendizaje automático.
+            Dominio de las bibliotecas estándar de Python.
+            Capacidad para escribir código Python limpio, legible y bien organizado.
+            Conocimiento de frameworks de desarrollo en Python</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+<section id="portfolio">
+  <div class="container">
+    <h2 class="text-center mb-4">Portafolio</h2>
+    <div class="row">
+      <!-- Primer proyecto -->
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body" onmouseover="showDescription('Proyecto 1', 'Fui parte del equipo que colaboro con COBOCE, me enfoqué en crear interfaces intuitivas, accesibles y visualmente atractivas que satisfacieran las necesidades de sus usuarios. Realicé un análisis exhaustivo de su público objetivo, sus necesidades y sus expectativas para desarrollar soluciones personalizadas que optimizan la experiencia del usuario.')" onmouseout="hideDescription()">
+            <img src="coboce.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="overlay">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
             </div>
           </div>
         </div>
-        <!-- Segundo proyecto -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="portafolio2.jpg" class="card-img-top" alt="Proyecto 2">
-            <div class="card-body">
-              <h5 class="card-title">Proyecto 2</h5>
-              <p class="card-text">Descripción del proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Ver</button>
+      </div>
+      <!-- Segundo proyecto -->
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body" onmouseover="showDescription('Proyecto 2', 'Descripción del proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.')" onmouseout="hideDescription()">
+            <img src="fa.jpg" class="card-img-top" alt="Proyecto 2">
+            <div class="overlay">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
             </div>
           </div>
         </div>
-        <!-- Tercer proyecto -->
-        <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="portafolio3.jpg" class="card-img-top" alt="Proyecto 3">
-            <div class="card-body">
-              <h5 class="card-title">Proyecto 3</h5>
-              <p class="card-text">Descripción del proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Ver</button>
+      </div>
+      <!-- Tercer proyecto -->
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body" onmouseover="showDescription('Proyecto 3', 'Descripción del proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.')" onmouseout="hideDescription()">
+            <img src="ho.png" class="card-img-top" alt="Proyecto 3">
+            <div class="overlay">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="projectDescription"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Sección Servicios -->
   <section id="services">
@@ -174,7 +233,7 @@
         <!-- Primer servicio -->
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img src="servicio1.jpg" class="card-img-top" alt="Servicio 1">
+            <img src="man.jpg" class="card-img-top" alt="Servicio 1">
             <div class="card-body">
               <h5 class="card-title">Servicio 1</h5>
               <p class="card-text">Descripción del servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -185,7 +244,7 @@
         <!-- Segundo servicio -->
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img src="servicio2.jpg" class="card-img-top" alt="Servicio 2">
+            <img src="clase.jpg" class="card-img-top" alt="Servicio 2">
             <div class="card-body">
               <h5 class="card-title">Servicio 2</h5>
               <p class="card-text">Descripción del servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -196,7 +255,7 @@
         <!-- Tercer servicio -->
         <div class="col-lg-4 mb-4">
           <div class="card">
-            <img src="servicio3.jpg" class="card-img-top" alt="Servicio 3">
+            <img src="desa.jpg" class="card-img-top" alt="Servicio 3">
             <div class="card-body">
               <h5 class="card-title">Servicio 3</h5>
               <p class="card-text">Descripción del servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -237,7 +296,7 @@
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <div class="container">
-      <p>Derechos de autor &copy; 2024 Franz Beltran. Todos los derechos reservados.</p>
+      <p>Derechos de autor &copy; 2024 Carmen Quispe. Todos los derechos reservados.</p>
     </div>
   </footer>
 
