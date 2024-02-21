@@ -164,66 +164,48 @@
   </div>
 </section>
     
-<section id="portfolio">
-  <div class="container">
-    <h2 class="text-center mb-4">Portafolio</h2>
-    <div class="row">
-      <!-- Primer proyecto -->
-      <div class="col-lg-4 mb-4">
-        <div class="card">
-          <div class="card-body" onmouseover="showDescription('Proyecto 1', 'Fui parte del equipo que colaboro con COBOCE, me enfoqué en crear interfaces intuitivas, accesibles y visualmente atractivas que satisfacieran las necesidades de sus usuarios. Realicé un análisis exhaustivo de su público objetivo, sus necesidades y sus expectativas para desarrollar soluciones personalizadas que optimizan la experiencia del usuario.')" onmouseout="hideDescription()">
-            <img src="coboce.jpg" class="card-img-top" alt="Proyecto 1">
-            <div class="overlay">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Segundo proyecto -->
-      <div class="col-lg-4 mb-4">
-        <div class="card">
-          <div class="card-body" onmouseover="showDescription('Proyecto 2', 'Descripción del proyecto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.')" onmouseout="hideDescription()">
-            <img src="fa.jpg" class="card-img-top" alt="Proyecto 2">
-            <div class="overlay">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Tercer proyecto -->
-      <div class="col-lg-4 mb-4">
-        <div class="card">
-          <div class="card-body" onmouseover="showDescription('Proyecto 3', 'Descripción del proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.')" onmouseout="hideDescription()">
-            <img src="ho.png" class="card-img-top" alt="Proyecto 3">
-            <div class="overlay">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p id="projectDescription"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+  <!-- Sección Portafolio -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="text-center mb-4">Portafolio</h2>
+      <div class="row">
+        <!-- Primer proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="coboce.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text"><font color="#000000"> Fui parte del grupo que  colaboró con COBOCE, me enfoqué en crear interfaces intuitivas</font></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Segundo proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="fa.jpg" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text"> <font color="#000000"> Aplicacion de reconocimiento facial  </font></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Ver</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tercer proyecto -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="ho.png" class="card-img-top" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3</h5>
+              <p class="card-text"><font color="#000000"> Sistema de administracion   </font></p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Ver</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
   <!-- Sección Servicios -->
   <section id="services">
@@ -236,7 +218,7 @@
             <img src="man.jpg" class="card-img-top" alt="Servicio 1">
             <div class="card-body">
               <h5 class="card-title">Servicio 1</h5>
-              <p class="card-text">Descripción del servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text"><font color="#000000"> Mantenimiento y reparacion de computadoras  </font></p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Ver</button>
             </div>
           </div>
@@ -247,7 +229,7 @@
             <img src="clase.jpg" class="card-img-top" alt="Servicio 2">
             <div class="card-body">
               <h5 class="card-title">Servicio 2</h5>
-              <p class="card-text">Descripción del servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text"><font color="#000000"> Clases personalizadas para principiantes y usuarios intermedios </font></p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Ver</button>
             </div>
           </div>
@@ -258,7 +240,7 @@
             <img src="desa.jpg" class="card-img-top" alt="Servicio 3">
             <div class="card-body">
               <h5 class="card-title">Servicio 3</h5>
-              <p class="card-text">Descripción del servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card-text"><font color="#000000"> Desarrollo de paginas web </font></p>
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">Ver</button>
             </div>
           </div>
